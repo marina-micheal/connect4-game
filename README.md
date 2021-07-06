@@ -39,7 +39,7 @@ Using Scene Builder a first GUI design is proposed. Based on this [FXML file]
  * Install JAVA and JavaFX libraries
  * Add JAVA_HOME to Windows environment variables
  * set PATH_TO_FX="path\to\javafx-sdk-15.0.1\lib"
- * In IntelliJ, configure the project
+ * In IntelliJ, configure the project, open the folder "src" from the Open menu
  * Configuring the project structure
 	* Select File --> Project Structure --> Project --> Select Java JDK 16
 	* Select File --> Project Structure --> Libraries --> Add JavaFX libraries to list of libraries
