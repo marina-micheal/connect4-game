@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="rootPane" minHeight="0.0" minWidth="0.0" prefHeight="700.0" prefWidth="1000.0" style="-fx-background-color: linear-gradient(to top, #12c3cc, #0d7075);" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AccountController">
+   <children>
+      <AnchorPane prefHeight="460.0" prefWidth="798.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="#7be8d9" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text=" Your Fantastic Four Account" textAlignment="CENTER" wrappingWidth="998.0">
+               <font>
+                  <Font name="Arial" size="36.0" />
+               </font>
+            </Text>
+            <Label layoutX="43.0" layoutY="157.0" prefHeight="35.0" prefWidth="230.0" text="Player 1 Highest Score:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="230.0" prefHeight="35.0" prefWidth="215.0" text="Player 1 Last Score:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="p1HighestScore" disable="true" editable="false" layoutX="329.0" layoutY="152.0" prefHeight="44.0" prefWidth="540.0" />
+            <TextField fx:id="p1LastScore" disable="true" editable="false" layoutX="328.0" layoutY="223.0" prefHeight="44.0" prefWidth="540.0" />
+            <Button fx:id="LoginButton14" layoutX="365.0" layoutY="560.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="50.0" prefWidth="250.0" style="-fx-background-color: #0d7075;" text="Back" textFill="#fff200">
+               <font>
+                  <Font name="Arial Bold Italic" size="20.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Label layoutX="43.0" layoutY="298.0" prefHeight="35.0" prefWidth="230.0" text="Player 2 Highest Score:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="40.0" layoutY="371.0" prefHeight="35.0" prefWidth="215.0" text="Player 2 Last Score:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="p2HighestScore" disable="true" editable="false" layoutX="329.0" layoutY="293.0" prefHeight="44.0" prefWidth="540.0" />
+            <TextField fx:id="p2LastScore" disable="true" editable="false" layoutX="328.0" layoutY="364.0" prefHeight="44.0" prefWidth="540.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
